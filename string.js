@@ -64,6 +64,7 @@ let msgTrim = msg.trim()
 let msg2 = "             heloo        ji     ";
 
 let removeWhiteSpace = msg2.trim().replace(/\s+/g, ' ')
+// /\s - math whitespace
 
 // other 
 const q1 = user.startsWith("a")// true
